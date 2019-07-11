@@ -1,5 +1,7 @@
 # General PROS Reference
 
+The [PROS docs](https://pros.cs.purdue.edu/v5/index.html) provides a more comprehensive reference and installation instructions -- this is just for our commonly-used functions.
+
 ## Build / Upload Process
 Before being uploaded to the Brain, the code needs to be compiled using
 
