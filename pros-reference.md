@@ -55,3 +55,11 @@ This comes into play when logging values. For example, if you try to log a `QLen
     printf("The arm is at %f m\n", height.getValue());
 
 This code will print `"The arm is at 0.254 m"` because 10 inches is 0.254 m.
+
+## Configuration Arrays
+
+To create presets, I suggest using an array, for example
+
+    const QLength liftHeights[] = {1_in, 18.5_in, 24.5_in, 38.0_in};
+
+This specifies an array of `QLength`s. To use this, access array elements with `liftHeights[index]` such as `liftHeights[1]` to get `18.5_in`.
