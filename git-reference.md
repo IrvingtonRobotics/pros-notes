@@ -40,7 +40,7 @@ The way to do this in PROS/Atom and terminal/Git CMD is as follows:
 
 1. Download
 
-  - If you do not have the repository at all on your computer, you have to clone it from Github to your computer using `git clone <URL>` such as 
+  - If you do not have the repository at all on your computer, you have to clone it from Github to your computer using `git clone <URL>` such as
 
           git clone https://github.com/IrvingtonRobotics/tower-takeover-A.git
 
@@ -50,30 +50,32 @@ The way to do this in PROS/Atom and terminal/Git CMD is as follows:
 
 2. Edit
 
-  - Make edits on files. You will mostly edit the `src/` directory. Be sure to test your code before proceeding: Each commit should have working code, so in case anything breaks, you just have to roll back.
+   - Make edits on files. You will mostly edit the `src/` directory. Be sure to test your code before proceeding: Each commit should have working code, so in case anything breaks, you just have to roll back.
 
 3. Stage + Commit
 
-  - Open the Git sidebar.
+   - Open the Git sidebar.
 
-  - You need to stage the changed files before committing. Do this by pressing <kbd>Stage All</kbd> near the top-right. This moves all the files to the Staging Area below.
+   - You need to stage the changed files before committing. Do this by pressing <kbd>Stage All</kbd> near the top-right. This moves all the files to the Staging Area below.
 
-  - Write a commit message in the box. Remember to use the imperative mood and capitalize the first letter. Most importantly, the message should make it clear what the commit did.
+   - Write a commit message in the box. Remember to use the imperative mood and capitalize the first letter. Most importantly, the message should make it clear what the commit did.
 
-  - Press the <kbd>Commit to Master</kbd> button.
+   - Press the <kbd>Commit to Master</kbd> button.
 
 4. Push to Github
 
-  - At this point, the commit is just stored in the local repository on your computer.
+   - At this point, the commit is just stored in the local repository on your computer.
 
-  - Push it to github by pressing <kbd>Push</kbd>
+   - Push it to github by pressing <kbd>Push</kbd>
 
 # In Case of Confusion
 
 Hopefully this brief introduction helped you get started with Git, Github, and Atom. If you are confused or have any questions:
 
 1. Try it again
+
 2. Google the problem
+
 3. Feel free to reach out to me. I'll be glad to help
 
 Good luck!
