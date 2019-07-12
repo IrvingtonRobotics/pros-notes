@@ -40,13 +40,13 @@ The way to do this in PROS/Atom and terminal/Git CMD is as follows:
 
 1. Download
 
-  - If you do not have the repository at all on your computer, you have to clone it from Github to your computer using `git clone <URL>` such as
+   - If you do not have the repository at all on your computer, you have to clone it from Github to your computer using `git clone <URL>` such as
 
           git clone https://github.com/IrvingtonRobotics/tower-takeover-A.git
 
-  - If you already have the repository on your computer, run `git pull`
+   - If you already have the repository on your computer, run `git pull`
 
-    - inside PROS/Atom, you could instead press the <kbd>Fetch</kbd> button. This checks if there were any changes on the remote Github repository. If there were any remote changes, you will have to then press <kbd>Pull</kbd> right after to bring in the changes into your local.
+     - inside PROS/Atom, you could instead press the <kbd>Fetch</kbd> button. This checks if there were any changes on the remote Github repository. If there were any remote changes, you will have to then press <kbd>Pull</kbd> right after to bring in the changes into your local.
 
 2. Edit
 
