@@ -67,15 +67,3 @@ The way to do this in PROS/Atom and terminal/Git CMD is as follows:
    - At this point, the commit is just stored in the local repository on your computer.
 
    - Push it to github by pressing <kbd>Push</kbd>
-
-# In Case of Confusion
-
-Hopefully this brief introduction helped you get started with Git, Github, and Atom. If you are confused or have any questions:
-
-1. Try it again
-
-2. Google the problem
-
-3. Feel free to reach out to me. I'll be glad to help
-
-Good luck!
