@@ -4,6 +4,8 @@ Okapi is a library for PROS that is intended to ease development through wrapper
 
 The [okapi docs](https://pros.cs.purdue.edu/v5/okapi/index.html) provides a more comprehensive reference -- this is just for our commonly-used functions.
 
+For a broader tutorial, see [Getting Started with OkapiLib](https://pros.cs.purdue.edu/v5/okapi/tutorials/walkthrough/getting-started.html)
+
 ## Enable
 
 Uncomment the line `//#include "okapi/api.hpp"` in `include/main.h` so that it reads `#include "okapi/api.hpp"`.

@@ -2,6 +2,8 @@
 
 The [PROS docs](https://pros.cs.purdue.edu/v5/index.html) provides a more comprehensive reference and installation instructions -- this is just for our commonly-used functions.
 
+For a broader tutorial, see the [PROS first time users guide](https://pros.cs.purdue.edu/v5/getting-started/new-users.html).
+
 ## Build / Upload Process
 Before being uploaded to the Brain, the code needs to be compiled using
 
@@ -63,19 +65,19 @@ You may want to initialize the chassis controller (or some other variable) only 
 First, you need to initialize the variable as you would normally do in one file, such as `initialize.cpp`
 
     ChassisControllerIntegrated drive = ...
-    
+
 This declares the variable, but then you have to share it with the other files
 
 You will need a single file such as `common.hpp` which will be shared between the `.cpp` files where you want to reference the variable. Inside the `common.hpp` file, you need a line such as
 
     extern ChassisControllerIntegrated drive;
-    
+
 Note the use of the keyword `extern` -- this specifies that the variable `drive` comes from another file. You need to manually specify the type `ChassisControllerIntegrated`; merely using `auto` does not work.
 
 In all the files where you want to reference the variable, use the line
 
     #include "common.hpp"
-    
+
 in order to use the shared variable. Now you can reference `drive` as any other variable in those files.
 
 ### Note for constants
@@ -85,7 +87,7 @@ Sharing a constant value across files is slightly different: You need to specify
 For example, in `common.hpp`:
 
     extern const QLength armLength;
-    
+
 and in `lift.cpp`:
 
     extern const QLength armLength = 20_in;
