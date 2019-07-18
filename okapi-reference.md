@@ -67,3 +67,13 @@ or arcade drive is
       masterController.getAnalog(ControllerAnalog::leftY),
       masterController.getAnalog(ControllerAnalog::rightY)
     );
+
+### Partner Joystick
+
+The initializers for `ControllerButton` and `Controller` assume master joystick by default. If you want to use the partner joystick, pass in `ControllerId::partner` as the first argument, for example to initialize a partner ControllerButton:
+
+    ControllerButton buttonLift(ControllerId::partner, ControllerDigital::left)
+
+Or to initialize a partnerController for analog joystick values:
+
+    Controller partnerController(ControllerId::partner)
